@@ -1,0 +1,38 @@
+@media (max-width : 600px) {
+    .name h1{
+        font-size: 16px;
+    }
+    .left{
+        width: 98%;
+    }
+    .left-content h1{
+        font-size: 32px;
+    }
+    .left-content h3{
+        font-size: 18px;
+    }
+    .right{
+        display: none;
+    }
+    .container{
+        text-align: center;
+        width: 98%;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .card-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .card{
+        margin-bottom: 16px;
+    }
+    .search{
+        display: none;
+    }
+    .navigations a{
+        font-size: 12px;
+        margin-right: 4px;
+    }
+}
