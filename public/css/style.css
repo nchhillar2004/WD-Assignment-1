@@ -227,3 +227,14 @@ h3>code{
     font-size: 14px;
     width: 85%;
 }
+
+.am, .pm, .cm{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.highlight {
+    background-color: #7E22CE;
+    color: white;
+}
