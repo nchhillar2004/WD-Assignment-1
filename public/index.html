@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/phone.css" />
     </head>
     <body>
+        <!-- Header -->
         <div class="header">
             <div class="header-container">
                 <div class="name">
@@ -16,8 +17,10 @@
                     >
                 </div>
                 <div class="search">
+                    <!--  input field for search -->
                     <input type="text" placeholder="Search.." id="search" />
                 </div>
+                <!-- navigations button in header -->
                 <div class="navigations">
                     <a href="#">Home</a>
                     <a href="pages/about.html">About</a>
@@ -27,9 +30,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- Main -->
         <div class="main">
-            <div class="container">
-                <div class="left">
+            <div class="container">  <!-- main container -->
+                <div class="left">  <!-- main container left side content (Welcome, Intro) -->
                     <div class="left-content">
                         <h1>
                             Welcome<br />
@@ -38,8 +43,8 @@
                         </h1>
                         <h3>
                             View projects made in
-                            <span id="text"></span>
-                            <span class="typewriter" id="typewriter">|</span>
+                            <span id="text"></span> <!--auto typing text using javascript-->
+                             <span class="typewriter" id="typewriter">|</span> <!--auto blinking typewriter animation -->
                         </h3>
                         <p class="scontent">
                             Welcome to my corner of the web! I'm Nishant
@@ -50,12 +55,12 @@
                             coding adventure together
                         </p>
                         <div class="left-buttons">
-                            <a
+                            <a href="pages/contact.html"
                                 ><button class="contact-btn">
                                     Contact now
                                 </button></a
                             >
-                            <a
+                            <a href="https://nishantchhillar.tech"
                                 ><button class="explore-btn">
                                     Explore Blog
                                 </button></a
@@ -63,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right">
+                 <div class="right"> <!-- main right side image container -->
                     <div class="code-container">
                         <img
                             width="500"
@@ -73,14 +78,15 @@
                 </div>
             </div>
 
+            <!-- projects display -->
             <div class="projects">
                 <h1>Popular projects</h1>
                 <div class="card-container">
-                    <div class="card">
+                     <div class="card"> <!-- projects cards -->
                         <div class="card-top">
-                            <h3>React Blog</h3>
-                            <img src="assets/project1.png" alt="Project 1" />
-                            <p class="scontent">
+                             <h3>React Blog</h3> <!-- card heading -->
+                             <img src="assets/project1.png" alt="Project 1" /> <!-- card image -->
+                             <p class="scontent"> <!-- card content -->
                                 Designed a highly interactive and responsive
                                 personal blog website with captivating
                                 animations, ensuring an engaging and visually
@@ -88,7 +94,7 @@
                                 and experiences with style!
                             </p>
                         </div>
-                        <div class="links">
+                         <div class="links"><!-- card links -->
                             <a
                                 href="https://github.com/nchhillar2004/react-blog"
                                 >Read more</a
@@ -147,6 +153,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Footer -->
         <div class="footer">
             <div class="footer-container">
                 <a href="#">
@@ -157,19 +165,21 @@
                     <a href="https://github.com/nchhillar2004"
                         ><img src="assets/github.svg" alt="GitHub icon"
                     /></a>
-                    <a href="https://discord.com/"
+                    <a href="https://discord.gg/3t6uKgbUvH"
                         ><img src="assets/discord.svg" alt="Discord icon"
                     /></a>
-                    <a href="https://linkedin.com/"
+                    <a href="https://in.linkedin.com/in/nishant-chhillar-177b7b278"
                         ><img src="assets/linkedin.svg" alt="Linkdin icon"
                     /></a>
-                    <a href="https://twitter.com/"
+                    <a href="https://twitter.com/NishantChhilla9"
                         ><img src="assets/twitter-x.svg" alt="Twitter icon"
                     /></a>
                 </div>
             </div>
         </div>
-        <script src="js/script.js"></script>
+        
+        <script src="js/script.js"></script>  <!--  linking the javascript file -->
+        <!-- Initialize firebase for deployment -->
         <script type="module">
             // Import the functions you need from the SDKs you need
             import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";

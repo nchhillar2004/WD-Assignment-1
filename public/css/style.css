@@ -234,6 +234,15 @@ h3>code{
     height: 100%;
 }
 
+.am{
+    width: 60%;
+    margin: auto;
+}
+
+.am p{
+    color: rgb(121, 121, 121);
+}
+
 .highlight {
     background-color: #7E22CE;
     color: white;
