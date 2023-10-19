@@ -235,12 +235,12 @@ h3>code{
 }
 
 .am{
-    width: 60%;
-    margin: auto;
+    width: 60% !important;
+    margin: auto !important;
 }
 
 .am p{
-    color: rgb(121, 121, 121);
+    color: rgb(121, 121, 121) !important;
 }
 
 .highlight {
